@@ -1,0 +1,62 @@
+<html>
+    <head>
+<style>
+    .pbox{
+        /* position: relative; */
+        width: 100%;
+		height: 100%;
+
+/* 垂直水平居中  2222 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+    .box{
+        background-color:red;
+        width: 500px;
+        height: 500px;
+
+    /* 垂直水平居中  3333  脱离文档流*/    
+        /* position: absolute;
+        margin:auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; */
+
+
+
+/* 垂直水平居中  1111  脱离文档流*/
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);  */
+
+
+
+
+        display: flex;
+		justify-content: center;
+	    align-items: center;
+    }
+</style>
+    </head>
+    <body>
+        <div>
+
+       
+        <div class="pbox">
+            <div class="box">
+                <span style="transform:scale(0.5,0.5)">AAAAAAAAAAA</span>            
+            </div>
+
+        </div>
+ </div>
+    </body>
+
+    <script>
+    </script>
+</html>
