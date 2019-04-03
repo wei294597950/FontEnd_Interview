@@ -31,16 +31,20 @@
 
 /* 垂直水平居中  1111  脱离文档流*/
         /* position: absolute;
-        top: 50%;
+        top: 50%;   //相对于父元素
         left: 50%;
-        transform: translate(-50%,-50%);  */
+        transform: translate(-50%,-50%);  //相对于自身 */      
 
 
+/* 垂直水平居中  44444  */
+        display:table-cell;
+        text-align:center;
+        vertical-align: middle
 
 
-        display: flex;
+        /* display: flex;
 		justify-content: center;
-	    align-items: center;
+	    align-items: center; */
     }
 </style>
     </head>
@@ -54,6 +58,7 @@
             </div>
 
         </div>
+        <!-- <div style="height:500px;width:500px;background-color:red;display:table-cell;text-align:center;vertical-align: middle">hello</div> -->
  </div>
     </body>
 
